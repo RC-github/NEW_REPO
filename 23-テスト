@@ -1,0 +1,11 @@
+# ブラウザを開く
++open_browser_1:
+  action>: OpenBrowser
+  url: null
+  headless: true
+
+# URLへ遷移
++go_to_1:
+  action>: GoTo
+  browser: +open_browser_1
+  url: ''
